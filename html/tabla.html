@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="uj.js" defer></script>
+</head>
+<body>
+    <nav>
+        
+        <a href="index.html" class="active">Főoldal</a>
+        <a href="tabla.html">Táblázat</a>
+        <a href="html5.html">HTML5 API</a>
+        <a href="chart.html">ChartJS</a>
+        <a href="ajax.html">AJAX</a>
+        <a href="oojs.html">OOJS</a>
+        <a href="react.html">React</a>
+    
+    </nav>
+
+    <table>
+        <tr>
+            <th>nev <button id="nevBtn">Rendez</button> </th>
+            <th>kor <button id="korBtn">Rendez</button></th>
+            <th>Orszag <button id="orszagBtn">Rendez</button></th>
+            <th>Regisztracio idopontja <button id="datumBtn">Rendez</button></th>
+            <th></th>
+        </tr>
+
+        <tbody id="emberek">
+
+        </tbody>
+    </table>
+
+    <hr>
+    <input type="hidden" id="modosit" value="">
+    név:<input id="nevek" type="text" required><br>
+    kor:<input id="eletkor" type="number" min="0" max="120" required><br>
+    <button id="gomb">Ment</button>
+</body>
+</html>
