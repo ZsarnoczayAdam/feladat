@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h1>Arfolyamok</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Főoldal</a>
+        <a href="tabla.html">Táblázat</a>
+        <a href="html5.html">HTML5 API</a>
+        <a href="chart.html">ChartJS</a>
+        <a href="ajax.html">AJAX</a>
+        <a href="oojs.html">OOJS</a>
+        <a href="https://leadando.standapp.hu">React</a>
+    </nav>
+    <br />
+
+    <table>
+        <thead>
+            <tr>
+                <th>Datum</th>
+                <th>USD</th>
+                <th>EUR</th>
+                <th>GBP</th>
+                <th>CHF</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+    <canvas id="exchangeChart"></canvas>
+
+    <script src="chart.js"></script>
+
+    <style>
+        tr {
+            cursor: pointer;
+        }
+    </style>
+</body>
+</html>
